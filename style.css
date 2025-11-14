@@ -1,0 +1,87 @@
+/* Un estilo más académico/profesional */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.7;
+    background-color: #f9f9f9; /* Un blanco ligeramente cálido */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 35px 45px;
+    background-color: #ffffff;
+    border: 1px solid #ddd; /* Un borde sutil */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+h1, h2, h3 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #1a1a1a;
+}
+h1 {
+    text-align: center;
+    color: #004d40; /* Verde oscuro */
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+h2 {
+    color: #00695c; /* Verde medio */
+    border-bottom: 1px solid #b2dfdb; /* Verde claro */
+    padding-bottom: 8px;
+    margin-top: 45px;
+}
+h3 {
+    color: #333;
+    margin-top: 30px;
+    border-left: 3px solid #00695c;
+    padding-left: 10px;
+}
+p, li {
+    font-size: 16px;
+    color: #444;
+}
+ul, ol {
+    padding-left: 30px;
+}
+.cover-details {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.cover-details p {
+    margin: 6px 0;
+}
+a {
+    color: #00695c; /* Verde medio para enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: #004d40; /* Verde oscuro al pasar el mouse */
+}
+.bibliography li {
+    word-wrap: break-word; 
+    margin-bottom: 10px;
+}
+#indice-lista li { 
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.nav-volver {
+    display: block;
+    margin-top: 45px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-volver:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
